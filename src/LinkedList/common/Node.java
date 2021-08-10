@@ -1,9 +1,9 @@
 package LinkedList.common;
 import java.io.*;
 public class Node{
-    int data;
-    Node next;
-    Node(int x){
+    public int data;
+    public Node next;
+    public Node(int x){
         data=x;
         next=null;
     }
