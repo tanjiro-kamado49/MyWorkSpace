@@ -1,4 +1,4 @@
-package LinkedList.common;
+package LinkedList.binaryTree.common;
 import java.util.*;
 public class TreeNode{ 
     public int val;

@@ -1,8 +1,9 @@
-package LinkedList;
+package LinkedList.binaryTree;
 import java.util.*;
 
-import LinkedList.common.TreeNode;
+import LinkedList.binaryTree.common.TreeNode;
 public class  PreorderNonRecursive{
+    
     public static void main(String []args){
          TreeNode root=TreeNode.create();
         Stack<TreeNode> s=new Stack<>();
