@@ -1,5 +1,4 @@
 package LinkedList;
-import java.util.*;
 import LinkedList.common.*;
 public class kthNodeFromEnd{
 
@@ -7,13 +6,13 @@ public class kthNodeFromEnd{
         int arr[]={1,2,3,4,5,6,7};
         Node list=Node.createList(arr);
         Node.display(list);
-        Node ans= kthNodeFromEnd(list,2);
+        Node ans= _kthNodeFromEnd(list,2);
         System.out.println();
         System.out.println(ans.data);
         
     }
     
-    public static Node kthNodeFromEnd(Node head, int k){
+    public static Node _kthNodeFromEnd(Node head, int k){
     
         Node cur=head;
         Node result = head;

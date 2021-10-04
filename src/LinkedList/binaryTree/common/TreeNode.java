@@ -18,6 +18,7 @@ public class TreeNode{
         newnode.left=create();
         System.out.println("Enter right child of"+x);
         newnode.right=create();
+        sc.close();
         return newnode;
 
     }

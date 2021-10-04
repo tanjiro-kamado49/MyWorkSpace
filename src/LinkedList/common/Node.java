@@ -1,5 +1,5 @@
 package LinkedList.common;
-import java.io.*;
+// import java.io.*;
 public class Node{
     public int data;
     public Node next;
@@ -113,7 +113,7 @@ public class Node{
     }
     public static void main(String[] args){
         Node head=null;
-        Node tail=null;
+        // Node tail=null;
         head=insert(head,11);
         head=insert(head,22);
         head=insert(head,33);
